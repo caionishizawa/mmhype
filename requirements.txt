@@ -1,0 +1,32 @@
+# Core dependencies
+aiohttp==3.9.1
+websockets==12.0
+eth-account==0.11.0
+pyyaml==6.0.1
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# Logging
+structlog==24.1.0
+colorama==0.4.6
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+aioresponses==0.7.6
+
+# Development
+black==23.12.1
+flake8==7.0.0
+mypy==1.7.1
+isort==5.13.2
+
+# Monitoring (optional)
+prometheus-client==0.19.0
